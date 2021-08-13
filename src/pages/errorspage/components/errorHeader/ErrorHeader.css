@@ -1,0 +1,69 @@
+.errors_header {
+    width: 100%;
+    height: 12vh;
+}
+
+.errors_header > .errors_wrapper {
+    width: 88%;
+    height: 12vh;
+    margin: auto;
+}
+
+.errors_wrapper > .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+}
+
+.header > h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header > .addTask {
+    display: flex;
+    align-items: center;
+
+}
+
+.addTaskItem > button {
+    border: none;
+    height: 35px;
+    padding: 0 20px;
+    font-family: sans-serif;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #015AE9;
+    color: white;
+
+}
+
+.addTaskItem > select {
+    border: none;
+    height: 35px;
+    width: 30px;
+    border-left: 1px solid rgba(221, 221, 221, 0.486);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #015AE9;
+    color: white;
+    outline: none;
+}
+
+.addTask > .addTaskItem {
+    border-radius: 8px;
+}
+
+.addTask_icons {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #000;
+}

@@ -1,0 +1,36 @@
+.taskItem_wrapper {
+    margin-top: 4vh;
+}
+
+.taskItem_wrapper > .tasks_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tasks_item > .item_image {
+    display: flex;
+}
+
+.item_image > .addfill {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.2px solid rgba(139, 139, 139, 0.267);
+    border-radius: 50%;
+    background-color: rgba(167, 167, 167, 0.267);
+    cursor: pointer;
+}
+.tasks_item > h4 {
+    font-size: 20px;
+}
+
+.item_image > .item_imageImg img {
+    border: 0.2px solid rgba(139, 139, 139, 0.267);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}

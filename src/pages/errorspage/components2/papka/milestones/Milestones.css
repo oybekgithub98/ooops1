@@ -1,0 +1,137 @@
+.milestones {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 0.3px rgb(196, 196, 196);
+    border-radius: 7px;
+}
+
+.milestones > .milestones_wrapper {
+    width: 85%;
+    margin: auto;
+}
+
+.milestones_wrapper > .milestones_header {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.milestones_header > .miles_sep {
+    width: 22%;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.miles_sep > p:first-child {
+    font-weight: bold;
+    padding: 5px 0 0 0;
+}
+
+.miles_sep > p:last-child {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px 0 5px 0;
+}
+
+.milestones_header > .miles_blog {
+    width: 85%;
+    margin-left: 8px;
+}
+
+.miles_blog > p:first-child {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.miles_blog > p:last-child {
+    font-size: 14px;
+    color: grey;
+    padding-top: 7px;
+}
+
+/* progress */
+.milestones_wrapper > .progress {
+    display: flex;
+    align-items: center;
+    padding: 2vh 0;
+}
+
+.progress > .progress_bar {
+    border: 1px solid rgba(194, 194, 194, 0.664);
+    background-color: rgb(227, 230, 235);
+    width: 80px;
+    margin-right: 10px;
+}
+
+.progress_bar > .barr {
+    border: 2px solid red;
+    width: 58px;
+}
+
+
+/* milestones_dribble */
+.milestones_dribble {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.milestones_dribble > .miles_now {
+    width: 22%;
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.miles_now > p:first-child {
+    font-weight: bold;
+    padding: 5px 0 0 0;
+}
+
+.miles_now > p:last-child {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px 0 5px 0;
+}
+
+.milestones_dribble > .miles_publish {
+    width: 85%;
+    margin-left: 8px;
+}
+
+.miles_publish > p:first-child {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.miles_publish > p:last-child {
+    font-size: 14px;
+    color: grey;
+    padding-top: 7px;
+}
+
+.milestones_wrapper > .foot {
+    padding-bottom: 25px !important;
+}
+
+.foot > .progress_bar {
+    border: 1px solid rgba(194, 194, 194, 0.664);
+    background-color: rgb(227, 230, 235);
+    width: 80px;
+    margin-right: 10px;
+}
+
+.foot > .progress_bar > .barr {
+    border: 2px solid red;
+    width: 15px;
+}
+
+
+.w3-light-grey {
+    width: 25%;
+}

@@ -1,0 +1,40 @@
+.personal_task {
+    width: 100%;
+    margin-top: 1vh;
+    padding: 10px 0 3px 0;
+}
+
+.personal_task_wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.personal_task_wrapper > .tasks {
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.task_icons {
+    padding: 0 5px 0 0;
+    cursor: pointer;
+}
+
+.tasks > p {
+    cursor: pointer;
+}
+
+.tasks > .hr {
+    border: 0.2px solid rgba(204, 204, 204, 0.267);
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* tasks_wrap */
+.tasks_wrap {
+    display: none;
+}
+
+.activeTasks {
+    display: block;
+}

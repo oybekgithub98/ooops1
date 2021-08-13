@@ -1,0 +1,81 @@
+.tasks_id {
+    width: 100%;
+    margin-top: 2vh;
+    padding: 3px 0 10px 0;
+}
+
+.tasks_id > .tasks_wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.tasks_wrapper > .projects {
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.projects > .project_tasks {
+    display: flex;
+    align-items: center;
+}
+
+.projects > .hr {
+    flex: 1;
+    border: 0.2px solid rgba(204, 204, 204, 0.267);
+    margin: 0 20px;
+}
+
+.project_tasks > p {
+    cursor: pointer;
+}
+
+.projects > .list_tasks {
+    display: flex;
+    align-items: center;
+    border: 0.2px solid rgba(146, 146, 146, 0.267);
+    padding: 2px 6px;
+    border-radius: 8px;
+    margin: 0 15px 0 0;
+    cursor: pointer;
+}
+
+.list_tasks > p {
+    font-size: 16px;
+    padding: 0 8px 0 4px;
+    user-select: none;
+}
+
+.projects > .data_tasks {
+    display: flex;
+    align-items: center;
+    border: 0.2px solid rgba(78, 78, 78, 0.267);
+    padding: 2px 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.data_tasks > p {
+    margin-left: 7px;
+}
+
+/* list_tasks_item */
+.list_tasks_item {
+    width: 100%;
+    display: none;
+}
+
+.activelist_tasks_item {
+    display: block;
+}
+
+/* tasks_search */
+.tasks_search {
+    width: 100%;
+    margin-top: 3vh;
+    display: none;
+}
+
+.activetasks_search {
+    display: block;
+}

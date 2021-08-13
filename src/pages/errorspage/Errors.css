@@ -1,0 +1,20 @@
+.errors{
+    width: 100%;
+    background-color: rgb(250,252,255);
+}
+
+.errors > .errorwrapper {
+    width: 88%;
+    margin: auto;
+    display: flex;
+}
+
+.errorwrapper > .errorwrapper_item1 {
+    width: 70%;
+    margin-right: 10px;
+}
+
+.errorwrapper > .errorwrapper_item2 {
+    width: 30%;
+    margin-left: 10px;
+}
