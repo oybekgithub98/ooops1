@@ -3,9 +3,9 @@ import './OverviewItem.css';
 import { AiOutlineMore } from 'react-icons/ai';
 import { FiHeart, FiLink, } from 'react-icons/fi'
 const OverviewItem = ({id,image, techName, errorType, errorFrequency, errorStatus}) => {
-    let fetchedLikes = 40;
+    let fetchedLikes = 55;
     const [like, setLikes] = useState(fetchedLikes);
-    const handleOverviewItemLike = (e) => {
+    const handleOverviewItemLike = () => {
         if(fetchedLikes === like){
             setLikes(previousLike => previousLike + 1);
         }

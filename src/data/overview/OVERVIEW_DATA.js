@@ -3,13 +3,13 @@ export const overViewData = [
         "id": 0,
         "techName": "React.js",
         "errorType": "Installation of React.js",
-        "errorFrequency": 4,
+        "errorFrequency": 8,
         "techImage": "../images/html.svg",
         "errorStatus": true
     },
     {
         "id": 1,
-        "techName": "React.js",
+        "techName": "HTML",
         "errorType": "Installation of React.js",
         "errorFrequency": 4,
         "techImage": "https://image.flaticon.com/icons/png/512/732/732190.png",

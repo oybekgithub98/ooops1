@@ -4,6 +4,8 @@ import Sidebar from './components/sidebar/Sidebar';
 import Errors from './pages/errorspage/Errors';
 import Instructions from './pages/instructionspage/Instructions';
 import Saved from './pages/savedpage/Saved';
+import Tutorial from './pages/tutorial/Tutorial';
+import LogOut from './pages/logout/LogOut';
 import { FiHome, FiAlertCircle, FiBookmark, FiCheckSquare, FiLogOut, FiAirplay, FiAward } from 'react-icons/fi';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -44,25 +46,19 @@ function App() {
         sidebarTitle: "Logout",
         sidebarIcon: <FiLogOut/>,
         route: "/logout"
-    },
-    {
-      id: 6,
-      sidebarTitle: "Best Practice",
-      sidebarIcon: <FiAward/>,
-      route: "/bestpractice"
-  },
+    }
 ]
   return (
     <Router>
       <div className="app">
-      <Sidebar SIDEBAR_UI_DATA={SIDEBAR_UI_DATA}/>
+      <Sidebar SIDEBAR_UI_DATA={SIDEBAR_UI_DATA} />
         <Switch>
           <Route exact path="/errors" component={() => <Errors/>}/>
           <Route exact path="/bestpractice" component={() => <Errors/>}/>
           <Route exact path="/instructions" component={() => <Instructions/>}/>
           <Route exact path="/saved" component={() => <Saved/>}/>
-          <Route exact path="/logout" component={() => <Home/>}/>
-          <Route exact path="/tutorials" component={() => <Home/>}/>
+          <Route exact path="/tutorials" component={() => <Tutorial/>}/>
+          <Route exact path="/logout" component={() => <LogOut/>}/>
           <Route exact path="/" component={() => <Home/>}/>
         </Switch>
       </div>

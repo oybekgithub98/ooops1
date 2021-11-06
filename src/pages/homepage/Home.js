@@ -1,6 +1,5 @@
 import React from 'react';
 import './Home.css';
-
 import { AiOutlineBug } from 'react-icons/ai';
 import { overViewData } from '../../data/overview/OVERVIEW_DATA';
 import Widgets from '../../components/widget-collection/Widgets';
@@ -19,7 +18,7 @@ const Home = () => {
                         {
                             overViewData?.map((overviewItem) => (
                                 <OverviewItem 
-                                    key={overviewItem?.id}
+                                    // key={overviewItem?.id}
                                     id={overviewItem?.id}
                                     image={overviewItem?.techImage}
                                     techName={overviewItem?.techName}

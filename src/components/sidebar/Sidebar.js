@@ -18,7 +18,8 @@ const Sidebar = ({ SIDEBAR_UI_DATA }) => {
                         SIDEBAR_UI_DATA.map((sidebarItem) => (
                             <NavLink
                                 key={sidebarItem?.id}
-                                exact activeClassName="active__sidebarLink" to={`${sidebarItem?.route}`} className="sidebar__collectionLink">
+                                exact activeClassName="active__sidebarLink" to={`${sidebarItem?.route}`} className="sidebar__collectionLink"
+                            >
                                 <div className="sidebar__collectionItem">
 
                                     {sidebarItem?.sidebarIcon}
@@ -30,7 +31,7 @@ const Sidebar = ({ SIDEBAR_UI_DATA }) => {
                 </div>
                 <div className="sidebar__avatarContainer">
                     <div className="sidebar__avatar" style={{ backgroundImage: `url(https://static.vecteezy.com/system/resources/thumbnails/002/002/403/small_2x/man-with-beard-avatar-character-isolated-icon-free-vector.jpg)` }}></div>
-                    <span>John Doe</span>
+                    <span>sdkjhjasdhkj asdjhkasjdkh</span>
                     <div className="sidebar__premium">
                         <BiCrown /> <p className="sidebar__avatarPremium">Premium</p>
                     </div>

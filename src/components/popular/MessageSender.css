@@ -1,14 +1,19 @@
 .messageSender{
-    width: 100%;
+    width: 90%;
     height: 440px;
     border-radius: 15px;
     background-color: var(--primary-color);
     box-shadow: rgba(8, 129, 251, 0.342) 0px 0px 10px;
+    margin-left: 20px;
 }
 
 .messageSender__top{
     display: flex;
     align-items: center;
+}
+
+.messageSender__top > .fix {
+    cursor: pointer;
 }
 
 .messageSender__title{
@@ -54,6 +59,7 @@
 .messageSender__contact > p{
     padding-left: 10px;
     color: var(--secondary-color);
+    user-select: none;
 }
 
 .messageSender__message{
@@ -101,4 +107,5 @@
     font-size: 18px;
     border: none;
     cursor: pointer;
+    outline: none;
 }
